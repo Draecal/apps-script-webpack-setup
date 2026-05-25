@@ -8,13 +8,14 @@ Enables modern JavaScript, SVG/icon imports and a full VS Code workflow using cl
 - Support for SVGs, icon packages and static assets
 - Local development in VS Code
 - Deployment via clasp
-- Modular structure for scalable internal tools
+- Framework‑agnostic: integrate with any JS setup (Vanilla, Angular‑style, React‑style, etc.)
 
 ## Usage
-Clone the repo, install dependencies, run Webpack to bundle your code, and deploy with `clasp push`.
+Add this `webpack.config.js` to your project, install your own dependencies, bundle with Webpack, and deploy using `clasp push`.
 
 ## Purpose
 Designed for developers building internal tools, dashboards and automation UIs on Google Workspace who want a modern JS workflow inside Apps Script.
 
 ## License
 MIT
+
